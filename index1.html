@@ -4,64 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="./style1.css">
     <script src="https://kit.fontawesome.com/9579446d3e.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!--inicio cabeçalho-->
     <header>
-        <nav id="nav-decoracao"><img src="./img/marcadagua.png"/></nav>
+        <nav id="nav-decoracao"><img src="./img1/marcadagua.png"/></nav>
         <nav id="nav-principal">
-            <img id="logo-menu" src="./img/logomenu.png"/>
+            <img id="logo-menu" src="./img1/logomenu.png"/>
             <ul>
                 <a href="/">Home</a>
                 <a href="/">ONGSlz</a>
                 <a href="/">Adote uma ONG</a>
                 <a href="/">Sobre nós</a>
-                <button id="perfil"><img src="./img/perfil.png"></button>
+                <button id="perfil">
+                    <a href="http://"><img src="./img1/perfil.png"></a>
+                </button>
             </ul>
         </nav>
     </header>
+    <!--inicio corpo-->
     <div class="container">
-        <img class="imagem" src="./img/fundomenu.png" alt="">
-
-        <div>
-            <input id="ola" type="text" placeholder="Buscar">   
+        <img class="imagem" src="./img1/fundomenu.png">
+        <div id="barra-busca"> 
+            <input id="barra-busca-menu" type="text" placeholder="Buscar">   
             <button id="botao1">
                 <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
             </button>
         </div>
-
         <div class="texto-sobre-imagem"> 
             <h1>NOME</h1>
             <h1>DA ONG</h1>
         </div>
     </div>
+    <!--inicio area de categorias-->
     <div class="area-categorias">
-        <button class="categoria"><img class="icon" src="./img/pata.png"/>ONGs de Animais</button>
-        <button class="categoria"><img class="icon" src="./img/criança.png"/>ONGs de Crianças</button>
-        <button class="categoria"><img class="icon" src="./img/livro.png"/>ONGs de Educação</button>
+        <button class="categoria"><img class="icon" src="./img1/pata.png"/>ONGs de Animais</button>
+        <button class="categoria"><img class="icon" src="./img1/criança.png"/>ONGs de Crianças</button>
+        <button class="categoria"><img class="icon" src="./img1/livro.png"/>ONGs de Educação</button>
     </div>
 
     <div class="area-categorias">
-        <button class="categoria"><img class="icon" src="./img/planta.png"/>ONGs Ambientais</button>
-        <button class="categoria"><img class="icon" src="./img/saúde.png"/>ONGs de Saúde</button>
-        <button class="categoria"><img class="icon" src="./img/humano.png"/>ONGs de Ajuda <br>Humanitária</br></button>
+        <button class="categoria"><img class="icon" src="./img1/planta.png"/>ONGs Ambientais</button>
+        <button class="categoria"><img class="icon" src="./img1/saúde.png"/>ONGs de Saúde</button>
+        <button class="categoria"><img class="icon" src="./img1/humano.png"/>ONGs de Ajuda <br>Humanitária</br></button>
     </div>
-
+    <!--area divulgação das arrecadações-->
     <div id="titulo-eventos">
         <h1>Eventos e Arrecadações</h1>
     </div>
     <div id="area-eventos">
         <div class="evento">
             <div class="evento-img">
-                <img src="./img/eventoimg1.png"/>
+                <img src="./img1/eventoimg1.png"/>
             </div>
             <div class="evento-ong">
-                <img src="./img/logo-ong1.png"/>
+                <img src="./img1/logo-ong1.png"/>
             </div>
             <div class="texto-evento">
                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -70,10 +73,10 @@
         </div>
         <div class="evento">
             <div class="evento-img">
-                <img src="./img/eventoimg2.png"/>
+                <img src="./img1/eventoimg2.png"/>
             </div>
             <div class="evento-ong">
-                <img src="./img/logo-ong2.png"/>
+                <img src="./img1/logo-ong2.png"/>
             </div>
             <div class="texto-evento">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -82,10 +85,10 @@
         </div>
         <div class="evento">
             <div class="evento-img">
-                <img src="./img/eventoimg3.png"/>
+                <img src="./img1/eventoimg3.png"/>
             </div>
             <div class="evento-ong">
-                <img src="./img/logo-ong3.png"/>
+                <img src="./img1/logo-ong3.png"/>
             </div>
             <div class="texto-evento">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -93,30 +96,34 @@
             </div>
         </div>
     </div>
+    <!--area de divulgação das ongs-->
     <div id="area-divulgacao">
         <div id="divulgacao">
 
             <div class="criancas">
-               <img src="./img/p.verde.png">
+               <img src="./img1/p.verde.png">
             </div>
             
             <div class="maolata">
-                <img src="./img/maolata.png">
+                <img src="./img1/maolata.png">
             </div>
                        
             <button class="adote">Adotar Ongs</button>
         </div>
     </div>
+    <!--area feedback-->
     <div id="area-feedback">
         <div id="feedback">
-            <div>
-               <img src="./img/feedback.png" alt=""> 
-            </div>
+            <img src="./img1/feedback.png"> 
+            <button id="seta-menu">
+                <a href=""><img src="./img1/seta-menu.png"></a>
+            </button>
         </div>
     </div>
+    <!--inicio rodapé-->
     <footer id="rodape">
         <div>
-            <img id="logo-rodape" src="./img/logomenu.png"/>
+            <img id="logo-rodape" src="./img1/logomenu.png"/>
         </div>
         <div>
             <ul id="Fale-conosco">
@@ -126,10 +133,10 @@
                 <li><a href="#">Termos de uso</a></li>
             </ul>
         </div>
-        <img id="linha-rodape" src="./img/linha-rodape.png"/>
+        <img id="linha-rodape" src="./img1/linha-rodape.png"/>
         <div>
             <div class="navigation_social"> 
-                <!-- link para rede social -->
+                <!-- link para rede sociais do roapé -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path fill="#EDF1F7" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/>
                   </svg>
@@ -140,11 +147,13 @@
                     <path fill="#EDF1F7" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
                   </svg>
             </div>
+            <!--inicio da area de contato-->
             <ul id="contato">
                 <li><a href="#">+55(98)957648373</a></li>
                 <li><a href="#">ongconect@gmail.com</a></li>
             </ul>
         </div>
     </footer>
+            <!--final da area do feedback-->
 </body>
 </html>

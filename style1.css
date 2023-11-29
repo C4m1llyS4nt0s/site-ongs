@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #F8F8F8;
@@ -49,8 +50,7 @@ style
 
   .imagem {
     width: 100%;
-    height: auto;
-    display: block;
+    display: flex;
   }
 
   .texto-sobre-imagem{
@@ -72,26 +72,28 @@ style
     margin-bottom: 0px;
 
   }
-
-#ola{
-    margin-left: 550px;
+#barra-busca-menu{
+    margin-left: 405px;
+    margin-top: 40px;
     transform: translateY(-1700%);
     padding-left: 12px;
-    width: 500px;
+    width: 430px;
     border-radius: 40px;
     background: rgba(211, 205, 205, 0.618);
     height: 25px;
+    border-style: none;
 }
-
+#barra-busca{
+    display: flex;
+    align-items: center;
+}
 #botao1{
-    transform: translateY(-1920%);
-    border-radius: 15px;
-    height: 25px;
-    width: 25px;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
     background-color: #f2ab41;
-    border: none;
+    border-style: none;
 }
-button
 .area-categorias{
     display: flex;
     justify-content: center;
@@ -225,8 +227,14 @@ button
 }
 #feedback{
     background-color: #FF9900;
-    height: 374px;
+    height: 360px;
     width: 100%;
+    
+}
+#seta-menu{
+    margin-left: 120px;
+    border-style: none;
+    background-color: #FF9900;
 }
 #feedback img{
     margin-top: 100px;

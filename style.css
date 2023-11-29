@@ -1,43 +1,91 @@
-/*{
-    display: flex;
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body {
+body{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #262626;
+    margin-right: 20px;
 }
-#pai{
-    display: flex;
-    width: 100vw;
-    height: 44px;
-    
-    background-color:#48FAAF ;
 
-}
-header{
+#imagem-fundo{
     display: flex;
-    flex-direction: column;
-    height: 10vh;
-    width: 100vw;
-
+    position: relative;
+    margin-left: 6.7%;
+    margin-top: -45%;
+    z-index: 1; 
 }
-nav{
-    display: flex;
-    height: 75%;
-    margin: auto;
-    ;
-}
-#conteiner_perfil ul{
+#logo{
     display: flex;
     align-items: center;
-    column-gap: 64px;
-    width: 100%;
-    max-width: 1440px;
-    padding-top: 24px;
-    text-align: center;
-}
-
-
+    flex-direction: column;
+    margin: 30px 0px 15px;
    
+    
+}
+#principal{
+    background:#62626263;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.247);
+    backdrop-filter: blur(0px);
+    color: #FFFFFF;
+    width: 24%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+}
+.login{
+    border-radius: 30px;
+    height: 36px;
+    width: 225px;
+    margin: 8px 0px 22px;
+    padding: 15px;
+    border-style: none;
+    background-color:#74747471;
+    
+
+}
+::placeholder{
+    color: #FFFFFF; 
+}
+#texto-login{
+    font-family: "Montserrat";
+    margin: 35px 0px 30px;
+}
+#recuperar-senha{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Inter";
+}
+#cadastro{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Inter";
+    margin: 0px 0px 50px;
+}
+#botao{
+    border-radius: 15px;
+    border-style: none;
+    background-color: #48FAAF;
+    width: 120px;
+    height: 37px;
+    margin: 26px 0px 12px;
+    color: #262626;
+  
+}
+#botao a{
+    text-decoration: none;
+    color: #262626;
+}
+/* :has-val, input-form + , focus-input-from::after{
+    top: -20px;
+    font-size:15px;
+}
+:has-val, input-form + , focus-input-form::before{
+    witdh:108%
+} */
