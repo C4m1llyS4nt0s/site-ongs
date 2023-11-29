@@ -63,14 +63,33 @@ style
     font-size: 34px; 
     margin-left: 150px;
   }
+
  .buscar{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
-    transform: translateY(-600%);
+    transform: translateY(-3000%);
+    margin-bottom: 0px;
+
   }
-.ola{
+
+#ola{
+    margin-left: 550px;
+    transform: translateY(-1700%);
     padding-left: 12px;
+    width: 500px;
+    border-radius: 40px;
+    background: rgba(211, 205, 205, 0.618);
+    height: 25px;
+}
+
+#botao1{
+    transform: translateY(-1920%);
+    border-radius: 15px;
+    height: 25px;
+    width: 25px;
+    background-color: #f2ab41;
+    border: none;
 }
 button
 .area-categorias{
@@ -157,19 +176,31 @@ button
     height: 1182px;
     width: 100%;
 }
+
 .maolata{
     display: flex;
-    flex-direction:inherit;
+    flex-direction: inherit;
     justify-content: right;
     margin-top: -100px;
 }
-.criancaS{
-    flex-direction: inherit;
+
+.maolata img{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.criancas{
     display: flex;
+    flex-direction: inherit;
     justify-content: left;
     margin-top: -100px;
-    
 }
+
+.criancas img{
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
 #divulgacao-fundo1{
     margin-right: 200px;   
 }
