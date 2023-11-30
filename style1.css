@@ -73,8 +73,8 @@ style
 
   }
 #barra-busca-menu{
-    margin-left: 405px;
-    margin-top: 40px;
+    margin-left: 445px;
+    margin-bottom: 80px;
     transform: translateY(-1700%);
     padding-left: 12px;
     width: 430px;
@@ -82,17 +82,9 @@ style
     background: rgba(211, 205, 205, 0.618);
     height: 25px;
     border-style: none;
-}
-#barra-busca{
-    display: flex;
-    align-items: center;
-}
-#botao1{
-    border-radius: 30px;
-    height: 30px;
-    width: 30px;
-    background-color: #f2ab41;
-    border-style: none;
+    background-color: rgba(255, 0, 0, 0.395);
+     display: flex;
+    /* align-items: center; */
 }
 .area-categorias{
     display: flex;
@@ -197,6 +189,13 @@ style
     justify-content: left;
     margin-top: -100px;
 }
+#bloco-texto-divulgacao1{
+    font-family: "Inter";
+    font-size: 22px;
+    color: #F8F8F8;
+    padding: 80px;
+    margin-top: 100px;
+}
 
 .criancas img{
     margin-top: -50px;
@@ -206,7 +205,7 @@ style
 #divulgacao-fundo1{
     margin-right: 200px;   
 }
-.adote{
+#adote{
     display: flex;
     align-items: center;
     border-style: none;
@@ -221,24 +220,28 @@ style
     margin: 100px;
     margin-top: -200px;
 }
+#adotar-ongs{
+    text-decoration: none;
+    color: #02b8ac;
+    font-size: 21px;
+}
 #area-feedback{
-    margin-top: 300px;
+    margin-top: 250px;
     margin-bottom: 200px;
 }
 #feedback{
     background-color: #FF9900;
     height: 360px;
     width: 100%;
-    
+    display: flex;
+    align-items: center;
 }
 #seta-menu{
-    margin-left: 120px;
+    margin-left: 95px;
     border-style: none;
     background-color: #FF9900;
 }
-#feedback img{
-    margin-top: 100px;
-}
+
 
 #rodape{
     height: 250px;
@@ -253,7 +256,7 @@ style
 #Fale-conosco{
     font-family: "Inter";
     list-style: none;
-    margin-top:35px;
+    margin-top:60px;
     margin-left:150px;
     margin-right: 60px;
     margin-bottom: 20px;
@@ -280,7 +283,7 @@ style
 #contato{
     font-family: "Inter";
     list-style: none;
-    margin-top:16px;
+    margin-top: 16px;
     margin-left:22px;
     margin-right: 60px;
     margin-bottom: 20px;
