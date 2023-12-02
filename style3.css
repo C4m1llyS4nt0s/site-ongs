@@ -66,14 +66,14 @@ body{
 #sobre-a-ong{
     padding-bottom: 50px;
     padding-right: 150px;
-    padding-top: 50px;
+    padding-top: 50px; 
     padding-left: 150px;
     font-family: "Inter";
     font-size: 15px;
 }
 #area-rifas{
     margin-top: 40px;
-    margin-left: 230px;
+    margin-left: 22%;
     margin-bottom: 30px;
     background-color:#F8F8F8;
     width: 750px;
@@ -103,7 +103,7 @@ body{
 }
 #area-doe-aqui{
     margin-top: 40px;
-    margin-left: 230px;
+    margin-left: 22%;
     margin-bottom: 30px;
     background-color:#F8F8F8;
     width: 750px;
