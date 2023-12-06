@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="oficial.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap" rel="stylesheet">
@@ -16,31 +16,30 @@
         <nav id="nav-decoracao">
             <img src="./img2/marcadagua.png"/>
         </nav>
-        <nav id="nav-principalongs">
-            <img id="logo-menuongs" src="./img2/logomenu.png"/>
+        <nav id="nav-principal">
+            <img id="logo-cabeçalho" src="./img2/logomenu.png"/>
             <ul>
                 <a href="index1.html">Home</a>
                 <a href="/">ONGSlz</a>
                 <a href="/">Adote uma ONG</a>
                 <a href="/">Sobre nós</a>
-                <button id="perfil-ongs"> <a href="index.html"><img src="./img2/perfil.png"/></a></button>
+                <button id="perfil-ongs"><img src="./img2/perfil.png"/></button>
             </ul>
         </nav>
     </header>
-    <!--area das categorias-->
     <div class="categorias-ongs">
         <button class="ongs-categorias"><img class="icon-ongs" src="./img2/pata.png"/>ONGs de Animais</button>
         <button class="ongs-categorias"><img class="icon-ongs" src="./img2/criança.png"/>ONGs de Crianças</button>
         <button class="ongs-categorias"><img class="icon-ongs" src="./img2/livro.png"/>ONGs de Educação</button>
     </div>
-    <div class="categorias-ongs">
-        <button class="ongs-categorias"><img class="icon-ongs" src="./img2/planta.png"/>ONGs Ambientais</button>
-        <button class="ongs-categorias"><img class="icon-ongs" src="./img2/saúde.png"/>ONGs de Saúde</button>
-        <button class="ongs-categorias"><img class="icon-ongs" src="./img2/humano.png"/>ONGs de Ajuda <br>Humanitária</br></button>
+    <div class="area-categorias">
+        <button class="categoria"><img class="icon" src="./img2/planta.png"/>ONGs Ambientais</button>
+        <button class="categoria"><img class="icon" src="./img2/saúde.png"/>ONGs de Saúde</button>
+        <button class="categoria"><img class="icon" src="./img2/humano.png"/>ONGs de Ajuda <br>Humanitária</br></button>
     </div>
+     <!--inicio da area das ongs-->
     <div id="area-ongs">
-        <!--inicio da area das ongs-->
-        <div class="ongs"><img src="./img2/p.solidary.png"/>
+        <div class="ongs"><img class="img-ongs" src="./img2/p.solidary.png"/>
             <div class="texto-ongs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             <button class="ongs-botao"> <a class="saiba-mais" href="http://">Saiba mais</a></button></div>
         <div class="ongs">
@@ -61,10 +60,9 @@
             <div class="texto-ongs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             <button class="ongs-botao"> <a class="saiba-mais" href="http://">Saiba mais</a></button></div>
     </div>
-    <!--inicio do rodapé-->
     <footer id="rodape-ongs">
         <div>
-            <img id="logo-rodapeongs" src="./img2/logomenu.png"/>
+            <img id="logo-rodape" src="./img2/logomenu.png"/>
         </div>
         <div>
             <ul id="fale-conosco">
@@ -73,9 +71,9 @@
                 <li><a href="#">Termos de uso</a></li>
             </ul>
         </div>
-        <img id="linha-rodapeongs" src="./img2/linha-rodape.png"/>
+        <img id="linha-rodapeo" src="./img2/linha-rodape.png"/>
         <div> 
-           <div class="navigation_social"> 
+           <div class="midias-sociais"> 
                 <!-- link para rede sociais do roapé -->
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path fill="#EDF1F7" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/>
