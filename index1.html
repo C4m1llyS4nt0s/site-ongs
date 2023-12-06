@@ -11,81 +11,85 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body1">
     <!--inicio cabeçalho-->
     <header>
-        <nav id="nav-decoracao"><img src="./img1/marcadagua.png"/></nav>
+        <nav id="nav-decoracao"><img src="./img/marcadagua.png"/></nav>
         <nav id="nav-principal">
-            <img id="logo-cabeçalho" src="./img1/logomenu.png"/>
+            <img id="logo-cabeçalho" src="./img/logomenu.png"/>
             <ul>
-                <a href="/">Home</a>
-                <a href="index2.html">ONGSlz</a>
-                <a href="/">Adote uma ONG</a>
-                <a href="/">Sobre nós</a>
+                <a class="telas-cabeçalho" href="/">Home</a>
+                <a class="telas-cabeçalho" href="index2.html">ONGSlz</a>
+                <a class="telas-cabeçalho" href="/">Adote uma ONG</a>
+                <a class="telas-cabeçalho" href="/">Sobre nós</a>
                 <button id="perfil">
-                    <a href="index.html"><img src="./img1/perfil.png"></a>
+                    <a href="index.html"><img src="./img/perfil.png"></a>
                 </button>
             </ul>
         </nav>
     </header>
     <!--inicio corpo-->
     <div class="container">
-        <img class="imagem" src="./img1/fundomenu.png">
+        <img class="imagem" src="./img/fundomenu.png">
+        <input id="barra-busca-menu" type="text" placeholder="Buscar">
         <button id="botao1">
-            <img src="./img1/lupa.png">
-        </button>
-        <input id="barra-busca-menu" type="text" placeholder="Buscar">   
+            <img src="./img/lupa.png">
+        </button>   
         <div class="texto-sobre-imagem"> 
-            <h1>NOME<br>DA ONG</br></h1>
+            <h1>PROJETO<br>SOLIDARY</br></h1>
         </div>
+        <div id="texto-sobre-imagem1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <button id="btn-menu">Saiba Mais</button>
     </div>
     <!--inicio area de categorias-->
     <div class="area-categorias">
-        <button class="categoria"><img class="icon" src="./img1/pata.png"/>ONGs de Animais</button>
-        <button class="categoria"><img class="icon" src="./img1/criança.png"/>ONGs de Crianças</button>
-        <button class="categoria"><img class="icon" src="./img1/livro.png"/>ONGs de Educação</button>
+        <button class="categoria"><img class="icon" src="./img/pata.png"/>ONGs de Animais</button>
+        <button class="categoria"><img class="icon" src="./img/criança.png"/>ONGs de Crianças</button>
+        <button class="categoria"><img class="icon" src="./img/livro.png"/>ONGs de Educação</button>
     </div>
 
     <div class="area-categorias">
-        <button class="categoria"><img class="icon" src="./img1/planta.png"/>ONGs Ambientais</button>
-        <button class="categoria"><img class="icon" src="./img1/saúde.png"/>ONGs de Saúde</button>
-        <button class="categoria"><img class="icon" src="./img1/humano.png"/>ONGs de Ajuda <br>Humanitária</br></button>
+        <button class="categoria"><img class="icon" src="./img/planta.png"/>ONGs Ambientais</button>
+        <button class="categoria"><img class="icon" src="./img/saúde.png"/>ONGs de Saúde</button>
+        <button class="categoria"><img class="icon" src="./img/humano.png"/>ONGs de Ajuda <br>Humanitária</br></button>
     </div>
     <!--area divulgação das arrecadações-->
-    <div id="titulo-eventos">
+    <div id="titulo-rifas">
         <h1>Rifas</h1>
     </div>
-    <div id="area-eventos">
-        <div class="evento">
+    <div id="area-divulgaçao-rifas">
+        <div class="arrecadaçoes">
             <div class="evento-img">
-                <img src="./img1/eventoimg1.png"/>
+                <img src="./img/eventoimg1.png"/>
             </div>
             <div class="evento-ong">
-                <img src="./img1/logo-ong1.png"/>
+                <img src="./img/logo-ong1.png"/>
             </div>
             <div class="texto-evento">
                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 <button class="evento-botao">Saiba mais</button>
             </div>
         </div>
-        <div class="evento">
+        <div class="arrecadaçoes">
             <div class="evento-img">
-                <img src="./img1/eventoimg2.png"/>
+                <img src="./img/eventoimg2.png"/>
             </div>
             <div class="evento-ong">
-                <img src="./img1/logo-ong2.png"/>
+                <img src="./img/logo-ong2.png"/>
             </div>
             <div class="texto-evento">
                  sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 <button class="evento-botao">Saiba mais</button>
             </div>
         </div>
-        <div class="evento">
+        <div class="arrecadaçoes">
             <div class="evento-img">
-                <img src="./img1/eventoimg3.png"/>
+                <img src="./img/eventoimg3.png"/>
             </div>
             <div class="evento-ong">
-                <img src="./img1/logo-ong3.png"/>
+                <img src="./img/logo-ong3.png"/>
             </div>
             <div class="texto-evento">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -98,7 +102,7 @@
         <div id="divulgacao">
 
             <div class="criancas">
-               <img src="./img1/p.verde.png">
+               <img src="./img/img-divulgaçao.png">
                <div id="bloco-texto-divulgacao1"> 
                     <h3>Projeto Solidary</h3>
                    <h5> Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5> 
@@ -108,7 +112,7 @@
             </div>
             
             <div class="maolata">
-                <img src="./img1/maolata.png">
+                <img src="./img/img-divulgaçao1.png">
             </div>
             <div id="text-divulgacao">
                 <h5>Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
@@ -122,30 +126,29 @@
     </div>
     <!--area feedback-->
     <div class="feedback">
-        <button id="prev-button"> <img src="./img1/seta2.png" alt="prev-button"> </button>
+        <button id="prev-button"> <img src="./img/seta-esquerda-menu.png" alt="prev-button"> </button>
 
         <div class="feedback-img">    
-            <img id="slide" src="img1/feedback.png" class="slider on" >
+            <img id="slide" src="img/feedback.png" class="slider on" >
             <!-- <img src="./img2/p.vida (1).png" class="slider"> -->
         </div>
 
-        <button id="next-button"> <img src="./img1/seta1.png" alt="next-button"> </button>
+        <button id="next-button"> <img src="./img/seta-direta-menu.png" alt="next-button"> </button>
     </div>
-    
     <!--inicio rodapé-->
     <footer id="rodape">
         <div>
-            <img id="logo-rodape" src="./img1/logomenu.png"/>
+            <img id="logo-rodape" src="./img/logomenu.png"/>
         </div>
         <div>
             <ul id="fale-conosco">
 
-                <li><a href="#">Fale conosco</a></li>
-                <li><a href="#">Política de privacidade</a></li>
-                <li><a href="#">Termos de uso</a></li>
+                <li><a class="infos-rodape" href="#">Fale conosco</a></li>
+                <li><a class="infos-rodape" href="#">Política de privacidade</a></li>
+                <li><a class="infos-rodape" href="#">Termos de uso</a></li>
             </ul>
         </div>
-        <img id="linha-rodape" src="./img1/linha-rodape.png"/>
+        <img id="linha-rodape" src="./img/linha-rodape.png"/>
         <div>
             <div class="midias-sociais"> 
                 <!-- link para rede sociais do roapé -->
@@ -161,8 +164,8 @@
             </div>
             <!--inicio da area de contato-->
             <ul id="contato">
-                <li><a href="#">+55(98)957648373</a></li>
-                <li><a href="#">ongconect@gmail.com</a></li>
+                <li><a class="infos-rodape" href="#">+55(98)957648373</a></li>
+                <li><a class="infos-rodape" href="#">ongconect@gmail.com</a></li>
             </ul>
         </div>
     </footer>
