@@ -76,7 +76,7 @@ a{
     background-color: #262626;
     border-radius:15px;
     margin-top: 40px;
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.61);
+    box-shadow: 0 3px 8px  rgba(0, 0, 0, 0.61);
    
 }
 .texto-ongs{
@@ -94,11 +94,13 @@ a{
     color: #fff;
     border-style: none;
     height: 36px;
-    width: 131px;
+    width: 145px;
     margin-top: 35px;
     margin-left: 81%;
 }
-
+.saiba-mais{
+    font-size: 12px;
+}
 #rodape-ongs{
     height: 250px;
     width: 100%;

@@ -38,12 +38,13 @@ body{
     justify-content: center;
     flex-direction: column;
     z-index: 2;
+    text-align: center;
 }
 .login{
     border-radius: 30px;
     height: 36px;
     width: 225px;
-    margin: 8px 0px 22px;
+    margin:10px;
     padding: 15px;
     border-style: none;
     background-color:#74747471;
@@ -82,10 +83,3 @@ body{
     text-decoration: none;
     color: #262626;
 }
-/* :has-val, input-form + , focus-input-from::after{
-    top: -20px;
-    font-size:15px;
-}
-:has-val, input-form + , focus-input-form::before{
-    witdh:108%
-} */

@@ -1,14 +1,10 @@
+function verificarConteudo() {
+    let emailInput = document.getElementById("emailInput").value;
+    let senhaInput = document.getElementById("senhaInput").value;
 
-// let inputs = document.getElementByClassName("input-form")
-// for(let input of inputs) {
-//     input.addEventListener("blur", function(){
-//         if(input.value.trin() != ""){
-//             input.classList.add("has-val")
-//         }
-//         else{
-//             input.classList.remove("has-val")
-//         }
-    
-//     });
-// }
-    
+    if (!emailInput || !senhaInput) {
+        alert("Por favor, preencha todos os campos.");
+    } else {       
+        window.location.href = "index1.html";
+    }
+}

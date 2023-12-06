@@ -63,28 +63,27 @@ style
     font-size: 34px; 
     margin-left: 150px;
   }
-
- .buscar{
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    transform: translateY(-3000%);
-    margin-bottom: 0px;
-
-  }
 #barra-busca-menu{
-    margin-left: 445px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-left: 430px;
     transform: translateY(-1700%);
     padding-left: 12px;
     width: 430px;
     border-radius: 40px;
     background: rgba(211, 205, 205, 0.618);
-    height: 25px;
+    height: 32px;
     border-style: none;
-    background-color: rgba(255, 0, 0, 0.395);
-     display: flex;
     /* align-items: center; */
+}
+#botao1{
+    
+    margin-left: 850px;
+    transform: translateY(-1700%);
+    background-color: #FF9900;
+    border-style: none;
+    width: 30px;
+    height: 30px;
+    border-radius:30px ;
 }
 .area-categorias{
     display: flex;
@@ -205,6 +204,15 @@ style
 #divulgacao-fundo1{
     margin-right: 200px;   
 }
+
+#text-divulgacao{
+    margin-top: -500px;
+    padding-left: 90px;
+    padding-right: 600px;
+    color: #F8F8F8;
+    font-family: "Inter";
+    font-size: 22px;
+}
 #adote{
     display: flex;
     align-items: center;
@@ -217,32 +225,54 @@ style
     color: #10F6E9;
     font-family: "Inter";
     font-size: 20px;
-    margin: 100px;
-    margin-top: -200px;
+    margin-left: 90px;
+    margin-top: 130px;
 }
 #adotar-ongs{
     text-decoration: none;
     color: #02b8ac;
     font-size: 21px;
 }
-#area-feedback{
+.feedback{
     margin-top: 250px;
-    margin-bottom: 200px;
-}
-#feedback{
-    background-color: #FF9900;
-    height: 360px;
+    margin-bottom: 250px;
+    display: flex;
     width: 100%;
+    height: 360px;
+    background-color: #FF9900;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;      
+}
+.feedback-img{
+    position: relative;
     display: flex;
     align-items: center;
-}
-#seta-menu{
-    margin-left: 95px;
-    border-style: none;
-    background-color: #FF9900;
+    justify-content: center;
+    width: 1000px;
 }
 
-
+.slider{
+    opacity: 0;
+    transition: 1s;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.on{
+    opacity: 1;
+}
+#prev-button, #next-button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#prev-button img, #next-button img{
+    width: 100%;
+    height: 100%;
+}
 #rodape{
     height: 250px;
     width: 100%;

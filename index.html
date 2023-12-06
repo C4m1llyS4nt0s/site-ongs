@@ -6,25 +6,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="logo"><img src="./img/logo.png"/></div> 
     <div id="principal">
         <h1 id="texto-login">Login</h1>
-        <input class="login" , type="email" placeholder="Email" />
-        <input class="login" , type="password" placeholder="Senha"/>
-        <a id="recuperar-senha" href="" ><h5>Esqueceu a senha?</h5></a>
-        <button id="botao">
-            <a href=""><h3>LOGIN</h3></a>
+        <input class="login" type="email" id="emailInput" placeholder="Email" required/>
+        <input class="login" type="password" id="senhaInput" placeholder="Senha" required/>
+        <a id="recuperar-senha" href=""><h5>Esqueceu a senha?</h5></a>
+        <button id="botao" onclick="verificarConteudo()">
+            <h3>entrar</h3>
         </button>
         <a id="cadastro" href="" target="" rel="noopener noreferrer"><h5>Não tem uma conta? Cadastrar-se</h5></a>
     </div>
-    <script src=></script>
-    <img id="imagem-fundo"src="./img/imagem-fundo.png"/>
+    <img id="imagem-fundo" src="./img/imagem-fundo.png"/>
+    <script src="index.js"></script>
 </body>
 </html>

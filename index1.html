@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style1.css">
-    <script src="https://kit.fontawesome.com/9579446d3e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style1.css"><script src="https://kit.fontawesome.com/9579446d3e.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap" rel="stylesheet">
@@ -19,26 +18,24 @@
             <img id="logo-menu" src="./img1/logomenu.png"/>
             <ul>
                 <a href="/">Home</a>
-                <a href="/">ONGSlz</a>
+                <a href="index2.html">ONGSlz</a>
                 <a href="/">Adote uma ONG</a>
                 <a href="/">Sobre nós</a>
                 <button id="perfil">
-                    <a href="http://"><img src="./img1/perfil.png"></a>
+                    <a href="index.html"><img src="./img1/perfil.png"></a>
                 </button>
             </ul>
         </nav>
     </header>
     <!--inicio corpo-->
     <div class="container">
-        <img class="imagem" src="./img1/fundomenu.png">        
-            <input id="barra-busca-menu" type="text" placeholder="Buscar">   
-            <button id="botao1">
-                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-            </button>
-        
+        <img class="imagem" src="./img1/fundomenu.png">
+        <button id="botao1">
+            <img src="./img1/lupa.png">
+        </button>
+        <input id="barra-busca-menu" type="text" placeholder="Buscar">   
         <div class="texto-sobre-imagem"> 
-            <h1>NOME</h1>
-            <h1>DA ONG</h1>
+            <h1>NOME<br>DA ONG</br></h1>
         </div>
     </div>
     <!--inicio area de categorias-->
@@ -101,9 +98,9 @@
 
             <div class="criancas">
                <img src="./img1/p.verde.png">
-               
                <div id="bloco-texto-divulgacao1"> 
-                    Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <h3>Projeto Solidary</h3>
+                   <h5> Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5> 
                </div>
                
                
@@ -111,23 +108,29 @@
             
             <div class="maolata">
                 <img src="./img1/maolata.png">
-                
             </div>
-                       
+            <div id="text-divulgacao">
+                <h5>Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sit Lorem ipsum doloramet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+            </div>
+                        
             <button id="adote">
                 <a id="adotar-ongs" href="http://">Adotar Ongs</a>
             </button>
+            
         </div>
     </div>
     <!--area feedback-->
-    <div id="area-feedback">
-        <div id="feedback">
-            <img id="img-feedback" src="./img1/feedback.png"> 
-            <button id="seta-menu">
-                <a href=""><img src="./img1/seta-menu.png"></a>
-            </button>
+    <div class="feedback">
+        <button id="prev-button"> <img src="./img1/seta2.png" alt="prev-button"> </button>
+
+        <div class="feedback-img">    
+            <img id="slide" src="img1/feedback.png" class="slider on" >
+            <!-- <img src="./img2/p.vida (1).png" class="slider"> -->
         </div>
+
+        <button id="next-button"> <img src="./img1/seta1.png" alt="next-button"> </button>
     </div>
+    
     <!--inicio rodapé-->
     <footer id="rodape">
         <div>
@@ -162,6 +165,7 @@
             </ul>
         </div>
     </footer>
-            <!--final da area do feedback-->
+    <script src="./index1.js" defer></script>      
+    <!--final da area do feedback-->
 </body>
 </html>
