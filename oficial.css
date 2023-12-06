@@ -489,7 +489,7 @@ style
     display: none;
     border-style: none;
     background-color: #F8F8F8;
-    margin-left: 680px;
+    margin-left: 22px;
     margin-top: 22px;
 }
 #area-doe-aqui{
@@ -521,6 +521,7 @@ style
     width: 100px;
     height: 25px;
     border-radius: 30px;
+    display: none;
     border-style: none;
     background-color:#1E1E1E;
     margin-left: 625px;
